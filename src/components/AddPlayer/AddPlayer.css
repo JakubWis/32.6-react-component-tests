@@ -1,0 +1,41 @@
+.AddPlayer {
+    width: 60vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.AddPlayer__input {
+    margin-right: 35px;
+    padding: 9px;
+    font-size: 16px;
+    outline: none;
+    background-color: #323339;
+    color: #F2AD9F;
+    border: 1px solid #323339;
+    letter-spacing: 1px;
+    width: 385px;
+    text-align: center;
+}
+
+.AddPlayer__input:active, .AddPlayer__input:focus {
+    border-color: #6CBF84;
+}
+
+.AddPlayer__submit {
+    width: 100px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgba(50, 51, 57,1);
+    color: #DFE2D2;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.AddPlayer__submit:hover {
+    color: #6CBF84;
+    border-color: #6CBF84;
+    
+}

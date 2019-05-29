@@ -1,0 +1,8 @@
+.PlayersList {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    width: 60vh;
+    height: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}

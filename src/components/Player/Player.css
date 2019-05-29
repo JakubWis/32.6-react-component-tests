@@ -1,0 +1,57 @@
+.Player:nth-child(even) {background: #DFE2D2}
+.Player:nth-child(odd) {background: rgba(108, 191, 132, 0.8)}
+
+.Player {
+    padding: 20px 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.Player__name {
+    font-size: 18px;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+    color: #323339;
+    letter-spacing: 1.5px;
+}
+
+.Player__score {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F26968;
+}
+.Player__button {
+    width: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 0 0 20px;
+    background-color: rgba(50, 51, 57,0.9);
+    color: #DFE2D2;
+    cursor: pointer;
+}
+
+.Player__button:hover {
+    background-color: rgba(50, 51, 57, 1);
+}
+
+.Player__button_remove {
+    width: 40px;
+    padding: 6px 0;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    right: 6px;
+    background-color: rgba(242, 105, 104, 0.8);
+    color: #323339;
+    cursor: pointer;
+}
+
+.Player__button_remove:hover {
+    background-color: rgba(242, 105, 104, 1);
+}
